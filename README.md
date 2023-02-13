@@ -86,7 +86,7 @@ This example is doing the following:
 - `render`: This method is used to render a React component inside the testing
   environment. Our Jest tests don't run in the browser, they run in Node, so one
   of the challenges of testing React components is that we need to simulate a
-  browser environment within Node. Under the hood, the [JSDOM][jsdom] library
+  browser environment within Node. Under the hood, the [JSDOM][jsdom] libraryent
   simulates a browser environment with browser-specific functionality, like the
   `document` object, which isn't available in Node. The `render` method then
   takes our React component and renders it in this simulated browser environment
